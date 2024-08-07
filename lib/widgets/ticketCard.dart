@@ -123,7 +123,9 @@ class _TicketCardState extends State<TicketCard> {
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: <Widget>[
                           Text(
-                            '${widget.totalTime} mins',
+                            widget.totalTime!.isEmpty
+                                ? "No available flight"
+                                : '${widget.totalTime} mins',
                             style: ThemeStyles.greyStyle,
                           ),
                         ],
