@@ -1,0 +1,48 @@
+name: cheap_flight
+description: A new Flutter project.
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.3 <4.0.0'
+dependencies:
+  another_flushbar: ^1.12.30
+  cupertino_icons: ^1.0.8
+  dropdown_search: ^5.0.6
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  flutter_svg: ^2.0.10+1
+  http: ^1.1.0
+  icons_flutter: ^0.0.4
+  intl: ^0.19.0
+  provider: ^6.1.2
+  shared_preferences: ^2.2.3
+  url_launcher: ^6.2.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/icons/
+    
+  fonts:
+    - family: Helvetica
+      fonts:
+        - asset: assets/fonts/Helvetica.ttf
+        - asset: assets/fonts/Helvetica-Bold-Font.ttf
+          weight: 700
+        - asset: assets/fonts/Helvetica-Light.ttf
+          weight: 100
